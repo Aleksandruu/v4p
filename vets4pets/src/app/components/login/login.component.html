@@ -1,0 +1,10 @@
+<div class="container" >
+    <h2>Login</h2>
+    <form (ngSubmit)="goToAppointment()" [formGroup]="form">
+        <label for="username">Username:</label>
+        <input formControlName="username" type="text" name="username" id="username">
+        <label for="password">Password:</label>
+        <input formControlName="password" type="password" name="password" id="password">
+        <input type="submit">
+    </form>
+</div>
